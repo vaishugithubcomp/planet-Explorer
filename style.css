@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background: url('https://i.ibb.co/mDrY8LJ/universe.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('planet.jpg');;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  color: #a0ffff;
+  font-size: 50px;
+  text-shadow: 0 0 35px #00f7ff;
+  animation: bounce 2s infinite;
+
+ 
+}
+
+a{
+  color: white;
+}
+
+
+
+h1:hover {
+  color: #00ffff;
+  text-shadow:
+    0 0 10px #00f7ff,
+    0 0 20px #00f7ff,
+    0 0 30px #00ffff,
+    0 0 40px #00ffff;
+  transform: translateY(-10px) scale(1.05);
+}
+
+p{
+    color: #a4e31b;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.planet-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px 20px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.planet-card {
+  background: rgba(0, 0, 0, 0.75);
+  width: 160px;
+  height: 200px;
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.planet-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #00ffff;
+}
+
+
+.planet-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px #00f7ff);
+}
+
+
+.planet-name {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+
+
+.visit-btn {
+  margin-top: auto;
+  padding: 8px 15px;
+  border: none;
+  background-color: #00f7ff;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.visit-btn:hover {
+  background-color: #008b8b;
+}
+
+
+.info-panel {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background:white;
+  border: 2px solid #00ffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  max-height: 400px;
+  overflow-y: auto;
+  display: none;
+  z-index: 50;
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+.info-panel img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px #00f7ff);
+  animation: rotatePlanet 20s linear infinite;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+@keyframes rotateRing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotatePlanet {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 24px;
+  color: red;
+  cursor: pointer;
+  user-select: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
