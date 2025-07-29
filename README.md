@@ -48,7 +48,7 @@ Click "Visit" to see size, distance from sun, and distances from other planets.
 
 | Category       | Tools/Tech                                                  |
 |----------------|-------------------------------------------------------------|
-| 🌐 Frontend    | HTML5, CSS3, JavaScript (Vanilla)                           |
+| 🌐 Frontend    | HTML5, CSS3, JavaScript                                     |
 | 🎨 Styling     | CSS Grid, Flexbox, Keyframe Animations                      |
 | 🖼️ Images      | NASA Solar System Open Source Assets                        |
 | 📱 UI Features | Hover Effects, Drop Shadows, Bounce Animations              |
