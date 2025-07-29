@@ -11,19 +11,18 @@
 
 ### 🚀 Welcome Page
 Start your journey with a glowing animated entry screen.
-![Welcome Page](<img width="1906" height="916" alt="Screenshot 2025-06-10 101955" src="https://github.com/user-attachments/assets/1316f92e-00e1-4da7-843f-33066ebde265" />
-)
+![Welcome Page]<img width="1906" height="916" alt="Screenshot 2025-06-10 101955" src="https://github.com/user-attachments/assets/1316f92e-00e1-4da7-843f-33066ebde265" />
+
 
 ### 🌍 Explore Planets
 Card-based layout with planet images and hover effects.
-![Explore Planets](<img width="1890" height="930" alt="Screenshot 2025-06-10 102152" src="https://github.com/user-attachments/assets/6ac141e2-f6b9-46ff-9324-74f73f54da59" />
-)
+![Explore Planets]<img width="1890" height="930" alt="Screenshot 2025-06-10 102152" src="https://github.com/user-attachments/assets/6ac141e2-f6b9-46ff-9324-74f73f54da59" />
+
 
 ### 📊 Info Panel
 Click "Visit" to see size, distance from sun, and distances from other planets.
-![Info Panel](<img width="1892" height="928" alt="Screenshot 2025-06-10 102313" src="https://github.com/user-attachments/assets/2b03392f-ed27-4716-a8c6-8fa014d19241" />
-]
-)
+![Info Panel]<img width="1892" height="928" alt="Screenshot 2025-06-10 102313" src="https://github.com/user-attachments/assets/2b03392f-ed27-4716-a8c6-8fa014d19241" />
+
 
 ---
 
